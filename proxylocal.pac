@@ -7,5 +7,5 @@ function FindProxyForURL(url, host)
 		dnsDomainIs(host,'facebook.com')
 		)return "SOCKS 127.0.0.1:24000";
 	else
-		returen "DIRECT";
+		return "DIRECT";
 }
